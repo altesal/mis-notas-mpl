@@ -29,7 +29,7 @@ Subir solución (sharepoint/solution/*.sppkg) al catálogo de apps
 ## Sharepoint Online
 
 1. Catálogo
-  https://<tenant>.sharepoint.com/sites/appcatalog/AppCatalog/Forms/AllItems.aspx
+  https://&lt;tenant&gt;.sharepoint.com/sites/appcatalog/AppCatalog/Forms/AllItems.aspx
 
 2. SPFX – Application Insights. Instalar el paquete Application Insights
    
