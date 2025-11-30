@@ -87,7 +87,22 @@ Dos estados, y uno depende de otro
 ## Varios
 
 
-#EJEMPLO SPREAD -> Array/objetos  -> Expande
+### Desestructuración de objetos
+
+Ejemplo de objeto
+
+```
+const data = { fact: "X", length: 10, type: "curioso" };
+
+// Desestructuración
+const { fact, length, type } = data;
+
+setFact(fact);
+console.log(length, type);
+```
+
+
+### EJEMPLO SPREAD -> Array/objetos  -> Expande
 
 ```
 const frutasBase = ['manzana', 'pera'];
