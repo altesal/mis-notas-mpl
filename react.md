@@ -18,6 +18,10 @@ Crear un proyecto vanilla y pasarlo a React
 
 ``` 
 npm create vite@latest  #Elegimos vanilla y js
+```
+Entramos a la carpeta del proyecto, y abrimos VSCOde
+``` 
+code .
 npm install @vitejs/plugin-react -E  #Plugin React
 npm install react react-dom -E
 ```
