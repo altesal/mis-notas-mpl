@@ -33,7 +33,7 @@ En main.js creamos el root...
 
 Renombarar (por vite) js por jsx, en el index.html y en el main.jsx
 
-## 2. Instalar eslint
+## 2. Instalar el linter
 
 ```
 npm install standard -D
