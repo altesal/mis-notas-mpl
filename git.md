@@ -8,6 +8,7 @@
 
   ✔ Require a pull request before merging
 
-Con lo anterior, nadie podrá hacer git push directo a main. Todos los cambios tendrán que pasar por una PR.
+Con lo anterior, nadie podrá hacer git push directo a master. Todos los cambios tendrán que pasar por una PR.
+
 
 
