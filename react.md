@@ -53,7 +53,7 @@ Creamos fichero App.jsx
 
 Lo importamos en el main.jsx
 
-
+Usar conceptor: usseEffect, useState, customHooks
 
 # Ideas
 
