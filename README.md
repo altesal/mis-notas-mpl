@@ -1,1 +1,11 @@
-# my-spfx
+Sobre [SPFX](/spfx.md/)
+
+Sobre [SharePoint Online](/shpo.md/)
+
+Sobre [GIT](/git.md/)
+
+Sobre [React](/react.md/)
+
+Versiones software [Versiones](/versiones.md)
+
+Pendientes [Pendientes](/pendientes.md/)
