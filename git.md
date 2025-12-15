@@ -11,4 +11,11 @@
 Con lo anterior, nadie podrá hacer git push directo a master. Todos los cambios tendrán que pasar por una PR.
 
 
+### Ver diferencias en un fichero
+
+```
+$ git --no-pager diff ./src/App.jsx
+
+```
+
 
