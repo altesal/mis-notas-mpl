@@ -67,7 +67,7 @@ Lo importamos en el main.jsx
 
 Usar conceptos: usseEffect, useState, customHooks
 
-    useEffect : Ejecuta lógica tras renderizar el componente, sincronizando efectos secundarios con cambios en dependencias específicas
+    useEffect : Ejecuta lógica/código la primera vez que se renderiza el componente, o cada vez que cambia una de sus dependencias.
 
     customHook: Utilizar lógica de nuestro componente, en otro componente. Extrayendo...
         - Es una caja negra
@@ -75,6 +75,8 @@ Usar conceptos: usseEffect, useState, customHooks
         - Pregunta importante: ¿Este useEffect lo puedo separar a un customHook?
     
     useRef: hook que permite crear una referencia mutable  que persiste durante todo el ciclo de vida del componte (=su valor no se reinicia). Útil para guardar cualquier valor que pueda mutar (identificador, contador, elemento del dom) y, que cada vez que cambia, no vuelve a renderizar el componente. Esto es lo que lo hace totalmente diferente al useState, porque el useState cada vez que cambia, se vuelve a renderizar el componente
+
+    useMemo: memoriza computaciones hechas, para no tener que volverlo a calcular, a no ser que cambien las dependencias. Usarlo para tema de optimizaciones, 1000 registros, ok, 10 registros, pues no...
 
 PREGUNTAS
   - Si veo useEffect ¿puede ir a  un customHook?
@@ -104,7 +106,16 @@ Ejemplo típico, pasos:
 
 - Loading antes del fetching de datos. Poner a false en el finally
 
-- UseRef para guardar la búsqueda anterior y evitar llamadas innecesarias
+- UseRef para guardar la búsqueda anterior y evitar la misma búsqueda. UseRef es algo interno al hook... 
+
+- UseMemo. Ordenar por campo
+        - Por función (dependencia con la search)
+- UseCallback. Es lo mismo que el useMemo pero para funciones. El useCallback por debajo es un useMemo. Lo que le pasamos como parámetro es la funci´pon que queremos memorizar. Resumen, para parámetros = useCallback; para valores useMemo
+
+-Debounce 
+```
+npm install just-debounce-it -E
+```
 
 # Test
 
