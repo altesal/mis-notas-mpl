@@ -5,7 +5,9 @@ Grupos O365 https://myaccount.microsoft.com/groups/groups-i-own/
 # Llamadas API REST de SharePoint Online
 
 ```
-https://&lt;tenant&gt;.sharepoint.com/sites/&lt;site_url&gt;/_api/site?$select=IsHubSite,HubSiteId
+https://<tenant>.sharepoint.com/sites/<site_url>/_api/site?$select=IsHubSite,HubSiteId  --> HUBSITE-ID
+
+https://ahonui.sharepoint.com/sites/INT-INFOSTAT/_api/site?$select=Id  --> SITE-ID
 ``` 
 
 # Wepart tipo Text
