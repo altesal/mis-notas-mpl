@@ -7,7 +7,7 @@ Grupos O365 https://myaccount.microsoft.com/groups/groups-i-own/
 ```
 https://<tenant>.sharepoint.com/sites/<site_url>/_api/site?$select=IsHubSite,HubSiteId  --> HUBSITE-ID
 
-https://ahonui.sharepoint.com/sites/INT-INFOSTAT/_api/site?$select=Id  --> SITE-ID
+https://<tenant>.sharepoint.com/sites/<site_url>/_api/site?$select=Id  --> SITE-ID
 ``` 
 
 # Wepart tipo Text
