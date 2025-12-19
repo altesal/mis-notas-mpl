@@ -10,7 +10,7 @@ https://<tenant>.sharepoint.com/sites/<site_url>/_api/site?$select=IsHubSite,Hub
 https://<tenant>.sharepoint.com/sites/<site_url>/_api/site?$select=Id  --> SITE-ID
 ``` 
 
-# Wepart tipo Text
+# Webpart tipo Text
 
 ## Tamaño fuentes por defecto
 
