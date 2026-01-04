@@ -30,7 +30,7 @@ npm -v
 5. Compilar y ejecutar
 
     ```
-    npx tsc
+    npx tsc  (npm run compile:watch)
     node dist/index.js        
     ```
 
@@ -38,13 +38,15 @@ npm -v
 ```
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "esnext",
-    "moduleResolution": "node",
+    "target": "es2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "jsx": "react",
     "noImplicitAny": false,
     "sourceMap": true,
-    "outDir": "./dist"    
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
     "src/**/*"
