@@ -33,3 +33,50 @@ npm -v
     npx tsc
     node dist/index.js        
     ```
+
+### Ejemplo fichero tsconfig.json
+```
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "outDir": "./dist"    
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+``` 
+
+### Ejemplo package.json
+
+```
+{
+  "name": "only-ts",
+  "version": "1.0.0",
+  "description": "Template for TypeScript projects",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "compile": "tsc -b",
+    "compile:watch": "tsc -b --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check-updates": "ncu -u"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-check-updates": "^16.7.10",
+    "typescript": "^5.9.3"
+  }
+}
+```
+
