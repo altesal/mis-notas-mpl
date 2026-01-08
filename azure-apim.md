@@ -21,3 +21,9 @@ https://www.youtube.com/watch?v=lmz-q2wr-js
 https://www.youtube.com/watch?v=8lO2zmGF7OQ    Plain Concepts
 
 https://www.youtube.com/watch?v=tWC3Bj0p9WU   50' pte con ejemplos
+
+# Estructura
+
+```
+https://<NOMBRE-APIM>.azure-api.net/<API-SUFFIX>/<URL-TEMPLATE> 
+``` 
