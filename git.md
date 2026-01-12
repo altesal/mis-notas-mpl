@@ -18,4 +18,16 @@ $ git --no-pager diff ./src/App.jsx
 
 ```
 
+### Borrar rama
 
+1. Eliminar rama si ha sido fusionada
+  ```
+  git branch -d nombre_rama
+
+  ```
+
+2. Eliminar rama aunque no haya sido fusionada
+  ```
+  git branch -D nombre_rama
+
+  ```
