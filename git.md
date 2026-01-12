@@ -10,6 +10,7 @@
 
 Con lo anterior, nadie podrá hacer git push directo a master. Todos los cambios tendrán que pasar por una PR.
 
+# Operaciones con ramas
 
 ### Ver diferencias en un fichero
 
