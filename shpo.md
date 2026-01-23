@@ -1,5 +1,7 @@
 # Administración usuarios
 
+Login en SharePoint Online: el usuario que inicia sesión es un usuario de Microsoft 365, es decir, una cuenta gestionada por la organización mediante Microsoft Entra ID (antes Azure AD).
+
 Grupos O365 https://myaccount.microsoft.com/groups/groups-i-own/
 
 # Llamadas API REST de SharePoint Online
