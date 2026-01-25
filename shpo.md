@@ -4,6 +4,13 @@ Login en SharePoint Online: el usuario que inicia sesión es un usuario de Micro
 
 Grupos O365 https://myaccount.microsoft.com/groups/groups-i-own/
 
+## Editar los permisos de un grupo
+
+1. Ir a los settings del site > Site permissions
+2. Marcar el check del grupo
+3. En la ribbon Edit User Permissions
+
+
 # Llamadas API REST de SharePoint Online
 
 ```
