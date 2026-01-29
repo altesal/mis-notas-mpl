@@ -38,3 +38,6 @@ https://<tenant>.sharepoint.com/sites/<site_url>/_api/site?$select=Id  --> SITE-
 | 12            | fontSizeSmall                        |                     |
 | 10            | fontSizeXSmall                       |                     |
 
+# PnP Modern Search
+
+- Sobre ordenar resultados de búsqueda https://blog.franckcornu.com/post/modern-search-overview-sort-control/
