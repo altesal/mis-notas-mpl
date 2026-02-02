@@ -17,6 +17,11 @@ Grupos O365 https://myaccount.microsoft.com/groups/groups-i-own/
 https://<tenant>.sharepoint.com/sites/<site_url>/_api/site?$select=IsHubSite,HubSiteId  --> HUBSITE-ID
 
 https://<tenant>.sharepoint.com/sites/<site_url>/_api/site?$select=Id  --> SITE-ID
+
+https://<tenant>.sharepoint.com/sites/DEV-Infostat/_api/web/lists?$select=Title,Id  --> Info de listas de un site
+
+https://<tenant>.sharepoint.com/sites/DEV-Infostat/_api/web/lists/getbytitle('NOMBRE_LISTA')/Id  -> Info de lista por Title
+
 ``` 
 
 # Webpart tipo Text
