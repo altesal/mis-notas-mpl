@@ -47,21 +47,44 @@ npm install standard -D
 
 Modificar el package.json, bajo dependencias
 
+
 ````
 },
 "eslintConfig": {
-    "extends": "./node_modules/standard/eslintrc.json"
+    ~~"extends": "./node_modules/standard/eslintrc.json"~~
+    "extends": "standard"
 }
 ````
 ## 3. Comenzamos la app
 
 Limpiar css en App.css y index.css. Ir a water.css (framework CSS classLess) y copiarlo en el index.css
+Creamos fichero App.jsx con simplemente un h1
+```
+function App(){
+    return(
+        <div>
+            <h1>Hello World!</h1>
+        </div>
+    )
+}
+export default App;
+```
+Lo configuramos desde el main.jsx
+```
 
-Vaciar el App.jsx y dejar simplemente un h1
+import {createRoot} from 'react-dom/client'
+import { StrictMode } from 'react'
+
+createRoot(document.getElementById('root')).render(
+    <strictMode>
+        <App />
+    </strictMode>
+)
+```
 
 Input y botón... y siempre que haya un input y un botón, englobarlos en un Formulario!
 
-Creamos fichero App.jsx
+
 
 Lo importamos en el main.jsx
 
