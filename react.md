@@ -57,6 +57,8 @@ Modificar el package.json, bajo dependencias
 ````
 ## 3. Comenzamos la app
 
+Seguir https://github.com/altesal/react-testing/tree/master/projects/react-buscador-pelis 
+
 Limpiar css en App.css y index.css. Ir a water.css (framework CSS classLess) y copiarlo en el index.css
 Creamos fichero App.jsx con simplemente un h1
 ```
