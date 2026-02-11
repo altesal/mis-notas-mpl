@@ -19,6 +19,21 @@ $ git --no-pager diff ./src/App.jsx
 
 ```
 
+### Listar ramas
+
+1. Listar ramas locales
+  ```
+  git branch
+
+  ```
+
+2. Listar ramas remotas
+  ```
+  git branch -r
+
+  ```
+
+
 ### Borrar rama
 
 1. Eliminar rama si ha sido fusionada
@@ -32,3 +47,4 @@ $ git --no-pager diff ./src/App.jsx
   git branch -D nombre_rama
 
   ```
+
