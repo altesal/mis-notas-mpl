@@ -1,3 +1,13 @@
+# Content Types
+
+| Para usar en     | Hereda de Nombre | Hereda de ID                             |
+| ---------------- | ---------------- | ---------------------------------------- |
+| Site Pages       | Site Page        | 0x0101009D1CB255DA76424F860D91F20E6C4118 |
+| Document Library | Document         | 0x0101                                   |                     
+| Lista            | Element          | 0x01                                     |
+
+
+
 # Errores
 
 ```
