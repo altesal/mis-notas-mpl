@@ -9,7 +9,7 @@
 
 
 <br><br><br><br>
-[Documentación](/urlsDocu.md/)
+[Documentación](/urlsDoc.md/)
 
 Pendientes [Pendientes](/pendientes.md/)
 
