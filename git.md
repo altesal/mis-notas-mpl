@@ -1,3 +1,11 @@
+# Configurar repo por usuario
+
+```
+$ git config --global user.name "mpl"
+$ git config --global user.email mpl@email.com
+```` 
+
+
 # Reglas de protección de ramas
 
 ### Asegurar que los cambios pasen por una Pull Request antes de hacer merge a rama master
@@ -47,4 +55,5 @@ $ git --no-pager diff ./src/App.jsx
   git branch -D nombre_rama
 
   ```
+
 
