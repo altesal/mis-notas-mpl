@@ -13,7 +13,7 @@ PS C:\repos\carpeta_proyecto> yo --version
 4.3.1
 PS C:\repos\carpeta_proyecto> npm ls -g --depth=0 @microsoft/generator-sharepoint
 C:\Program Files\nodejs -> .\
-└── @microsoft/generator-sharepoint@1.20.0
+└── @microsoft/generator-sharepoint@1.19.0
 
 PS C:\repos\carpeta_proyecto> node -v
 v18.19.1
