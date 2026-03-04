@@ -35,7 +35,14 @@ Rellenar el asistente con estas opciones (modelo típico):
 - Framework: React o No JavaScript Framework
 - Nombre del WebPart
 - Descripción del WebPart
+```
 
+npm install
+npm install spfx-fast-serve --save-dev
+spfx-fast-serve
+npm run serve
+
+```
 
 ## Proyecto
 1. Fichero tsconfig.json
