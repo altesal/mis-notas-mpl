@@ -7,7 +7,7 @@ PS C:\repos> node -v
 v18.19.1
 PS C:\repos\carpeta_proyecto> npm install -g yo@4.3.1
 PS C:\repos\carpeta_proyecto> npm install -g gulp-cli@2.3.0
-PS C:\repos\carpeta_proyecto> npm install -g @microsoft/generator-sharepoint@1.20.0
+PS C:\repos\carpeta_proyecto> npm install -g @microsoft/generator-sharepoint@1.19.0
 
 PS C:\repos\carpeta_proyecto> yo --version
 4.3.1
