@@ -1,5 +1,39 @@
 ## Entorno de desarrollo
 
+## Crear proyecto
+
+```
+PS C:\repos> node -v
+v18.19.1
+PS C:\repos\carpeta_proyecto> npm install -g yo@4.3.1
+PS C:\repos\carpeta_proyecto> npm install -g gulp-cli
+PS C:\repos\carpeta_proyecto> npm install -g @microsoft/generator-sharepoint@1.20.0
+
+PS C:\repos\carpeta_proyecto> yo --version
+4.3.1
+PS C:\repos\carpeta_proyecto> npm ls -g --depth=0 @microsoft/generator-sharepoint
+C:\Program Files\nodejs -> .\
+└── @microsoft/generator-sharepoint@1.20.0
+
+PS C:\repos\carpeta_proyecto> node -v
+v18.19.1
+PS C:\repos\carpeta_proyecto> 
+
+
+
+PS C:\repos\carpeta_proyecto> yo @microsoft/sharepoint
+```
+Rellenar el asistente con estas opciones (modelo típico):
+
+- SharePoint Online only (latest)
+- WebPart
+- Nombre del proyecto
+- Descripción
+- Framework: React o No JavaScript Framework
+- Nombre del WebPart
+- Descripción del WebPart
+
+
 ## Proyecto
 1. Fichero tsconfig.json
 
