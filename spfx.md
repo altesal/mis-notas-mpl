@@ -1,6 +1,6 @@
 ## Entorno de desarrollo
 
-## Crear proyecto
+## Crear proyecto  - Verificar versiones antes de crear
 
 ```
 PS C:\repos> node -v
