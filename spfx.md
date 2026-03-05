@@ -57,12 +57,19 @@ npm run serve
 | **`jsx`** | `react-jsx` | `react` | `react` | `react-jsx`, `preserve` |
 
 
-
 2. Fichero serve.json
 
   ```
   "initialPage": "https://<tenant>.sharepoint.com/sites/<nombre_site>/_layouts/workbench.aspx"
   ````
+  
+### Crear un nuevo webpart en proyecto existente
+
+1. Lanzar el generador dentro del proyecto
+
+   ```
+   yo @microsoft/sharepoint
+   ```
 
 ### Ejecutar
 
@@ -83,12 +90,14 @@ gulp package-solution --ship
 ```
 Subir solución (sharepoint/solution/*.sppkg) al catálogo de apps
 
-## Sharepoint Online
+## Publicar un paquete en el catálogo de SharePoint
 
 1. Catálogo
   https://&lt;tenant&gt;.sharepoint.com/sites/appcatalog/AppCatalog/Forms/AllItems.aspx
 
-2. SPFX – Application Insights. Instalar el paquete Application Insights
+## Extensiones 
+
+1. SPFX – Application Insights. Instalar el paquete Application Insights
    
 ```
 npm para instalar @microsoft/applicationinsights-web
