@@ -1,8 +1,18 @@
 ## Entorno de desarrollo
 
 ## Crear proyecto  - Verificar versiones antes de crear
-
 ```
+#Instalar nvm
+PS C:\repos> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
+PS C:\repos> export NVM_DIR="$HOME/.nvm" [ -s "$NVM_DIR/nvm.sh"] && \. "$NVM_DIR/nvm.sh"
+PS C:\repos> nvm --version
+
+#instalar Node 24
+PS C:\repos> nvm install 24    
+
+#instalar typescript 5.9
+PS C:\repos> npm install -g typescript@5.9 
+
 PS C:\repos> node -v
 v18.19.1
 PS C:\repos\carpeta_proyecto> npm install -g yo@4.3.1
