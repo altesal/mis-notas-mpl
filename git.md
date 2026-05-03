@@ -24,6 +24,12 @@ Con lo anterior, nadie podrá hacer git push directo a master. Todos los cambios
 
 ```
 $ git --no-pager diff ./src/App.jsx
+```
+### Clonar  un repo a otro con nombre distinto
+```
+$ git clone https://github.com/altesal/repo1.git nuevo-repo1
+
+$ git push --set-upstream origin master
 
 ```
 
