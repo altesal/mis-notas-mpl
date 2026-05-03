@@ -2,10 +2,8 @@
 
 ## Crear proyecto  - Verificar versiones antes de crear
 ```
-#Instalar nvm
-PS C:\repos> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
-PS C:\repos> export NVM_DIR="$HOME/.nvm" [ -s "$NVM_DIR/nvm.sh"] && \. "$NVM_DIR/nvm.sh"
-PS C:\repos> nvm --version
+#Instalar nvm: nvm-setup.exe
+
 
 #instalar Node 24
 PS C:\repos> nvm install 24    
