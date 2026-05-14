@@ -22,6 +22,9 @@ https://<tenant>.sharepoint.com/sites/DEV-Infostat/_api/web/lists?$select=Title,
 
 https://<tenant>.sharepoint.com/sites/DEV-Infostat/_api/web/lists/getbytitle('NOMBRE_LISTA')/Id  -> Info de lista por Title
 
+https://{tenant}.sharepoint.com/sites/{site}/_api/site?$select=Id  -> ID del tenant  d:Id    
+
+
 ``` 
 
 # Webpart tipo Text
