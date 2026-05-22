@@ -46,7 +46,7 @@ https://{tenant}.sharepoint.com/sites/{site}/_api/site?$select=Id  -> ID del ten
 | 12            | fontSizeSmall                        |                     |
 | 10            | fontSizeXSmall                       |                     |
 
-# PnP Modern Search - Configuración
+# PnP Modern Search - Configuración.
 
 **PnP Search Box**
 - Reset query on clear: Activat
