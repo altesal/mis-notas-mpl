@@ -14,6 +14,10 @@ $git remote set-url origin https://github.com/altesal/backend-auth-otp-jwt
 $git remote -v
 ```
 
+## Saltarme los tests en el push
+
+git push --no-verify
+
 
 # Reglas de protección de ramas
 
