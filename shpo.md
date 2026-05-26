@@ -1,3 +1,16 @@
+# API Search
+
+| Source | Source Id | API Search |
+| ------ | --------- | ---------- |
+| Personas (user profile) | b09a7990-05ea-4af9-81ef-edfab16c4e31 | /_api/search/query?querytext='mjpedreira'&sourceid='b09a7990-05ea-4af9-81ef-edfab16c4e31' |
+| Documentos Sharepoint | 8413cd39-2156-4e00-b54d-11efd9abdb89 | /_api/search/query?querytext='report'&sourceid='8413cd39-2156-4e00-b54d-11efd9abdb89'| 
+| Vídeos (Office 365 Video/Stream legacy) | 9479bf85-e257-4318-b5a2-81a180f5faa1 | /_api/search/query?querytext='training'&sourceid='9479bf85-e257-4318-b5a2-81a180f5faa1'
+``|
+| Contenido todo SharePoint (global) | e7ec8cee-ded8-43c9-beb5-436b54b31e84| /_api/search/query?querytext='*'&sourceid='e7ec8cee-ded8-43c9-beb5-436b54b31e84'|
+| Conversaciones / social | 5dc9f503-801e-4ced-8a2c-5d1237132419 |_api/search/query?querytext='discussion'&sourceid='5dc9f503-801e-4ced-8a2c-5d1237132419' |
+
+
+
 # Administración usuarios
 
 Login en SharePoint Online: el usuario que inicia sesión es un usuario de Microsoft 365, es decir, una cuenta gestionada por la organización mediante Microsoft Entra ID (antes Azure AD).
