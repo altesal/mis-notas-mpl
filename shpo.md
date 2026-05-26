@@ -2,7 +2,7 @@
 
 | Source | Source Id | API Search |
 | ------ | --------- | ---------- |
-| Personas (user profile) | b09a7990-05ea-4af9-81ef-edfab16c4e31 | /_api/search/query?querytext='mjpedreira'&sourceid='b09a7990-05ea-4af9-81ef-edfab16c4e31' |
+| Personas (user profile) | b09a7990-05ea-4af9-81ef-edfab16c4e31 |https://{tenant}.sharepoint.com/_api/search/query?querytext=%27*%27&sourceid=%27b09a7990-05ea-4af9-81ef-edfab16c4e31%27&rowlimit=80  |
 | Documentos Sharepoint | 8413cd39-2156-4e00-b54d-11efd9abdb89 | /_api/search/query?querytext='report'&sourceid='8413cd39-2156-4e00-b54d-11efd9abdb89'| 
 | Vídeos (Office 365 Video/Stream legacy) | 9479bf85-e257-4318-b5a2-81a180f5faa1 | /_api/search/query?querytext='training'&sourceid='9479bf85-e257-4318-b5a2-81a180f5faa1'
 ``|
