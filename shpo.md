@@ -38,7 +38,10 @@ https://<tenant>.sharepoint.com/sites/DEV-Infostat/_api/web/lists/getbytitle('NO
 https://{tenant}.sharepoint.com/sites/{site}/_api/site?$select=Id  -> ID del tenant  d:Id    
 
 
-``` 
+```
+# Consultas Graph
+
+https://developer.microsoft.com/en-us/GRAPH/GRAPH-EXPLORER
 
 # Webpart tipo Text
 
