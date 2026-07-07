@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "898cd35b6e60dba4",
+        "id": "35c9e3c040bdaf9d",
         "type": "tabs",
         "children": [
           {
-            "id": "4254559a058492d7",
+            "id": "469098162f98982f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transformers.md",
+                "file": "Arquitectura/Exposición de una API alojada en Azure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transformers"
-            }
-          },
-          {
-            "id": "8c7aca7474557eca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Transformers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transformers"
-            }
-          },
-          {
-            "id": "f7648db59778c18a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Proyecto con IA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Proyecto con IA"
+              "title": "Exposición de una API alojada en Azure"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,13 +183,30 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "f7648db59778c18a",
+  "active": "469098162f98982f",
   "lastOpenFiles": [
-    "Pasted image 20260621194629.png",
+    "Arquitectura/Pasted image 20260707123236.png",
+    "Arquitectura/Pasted image 20260707123225.png",
+    "Arquitectura/Exposición de una API alojada en Azure.md",
+    "Arquitectura/red.drawio.png",
+    "Arquitectura",
+    "Nueva carpeta",
+    "Diagramas/Graficos.drawio",
+    "Diagramas",
+    "Notes sin organizar/Transformers.md",
+    "Notes sin organizar/Proyecto con IA.md",
+    "Notes sin organizar/Pasted image 20260622082707.png",
+    "Notes sin organizar/Pasted image 20260621194629.png",
+    "Notes sin organizar/OpenCode. Clase 2 IA.md",
+    "Notes sin organizar/Conceptos.md",
+    "Notes sin organizar",
+    "Transformers.md",
     "Conceptos.md",
     "Proyecto con IA.md",
+    "Pasted image 20260622082707.png",
+    "OpenCode. Clase 2 IA.md",
+    "Pasted image 20260621194629.png",
     "notes",
-    "Transformers.md",
     "Pasted image 20260621194427.png",
     "Generative AI Campus"
   ]

@@ -1,3 +1,4 @@
+Payload = Los datos que envías en una petición a una API
 
 Zero shot prompting
 Token
@@ -13,5 +14,12 @@ Titan       Amazon          Amazon Bedrock
 
 [API keys - OpenAI API](https://platform.openai.com/api-keys)   -> capmj GMAIL
 
+Download Ollama  -> Generar texto
+
 Create new secret key
 name: Test Generative IA udemy
+
+
+Google AI Studio:   https://aistudio.google.com/prompts/new_chat
+
+Evaluar prompts: [My Prompt Works](https://prompt.one-north.ai/)
