@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Exposición de una API alojada en Azure"
             }
+          },
+          {
+            "id": "9db5623996267fb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Desarrollos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Desarrollos"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,11 +198,13 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "469098162f98982f",
+  "active": "9db5623996267fb1",
   "lastOpenFiles": [
+    "Arquitectura/Exposición de una API alojada en Azure.md",
+    "Desarrollos.md",
+    "SPFX",
     "Arquitectura/Pasted image 20260707123236.png",
     "Arquitectura/Pasted image 20260707123225.png",
-    "Arquitectura/Exposición de una API alojada en Azure.md",
     "Arquitectura/red.drawio.png",
     "Arquitectura",
     "Nueva carpeta",
