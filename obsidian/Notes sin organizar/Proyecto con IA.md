@@ -5,7 +5,9 @@ $ pip list
 $ pip install faiss-cpu numpy
 $ pip install certifi  httpx
 
+Según la versión de Python
+$ pi  -m pip install openai python-dotenv
 
-
-Vamos a 
+Ejecutamos:
+ py summarize_notes.py          
 
