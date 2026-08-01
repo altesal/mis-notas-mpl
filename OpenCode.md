@@ -4,6 +4,7 @@
 	- npm install -g opencode-ai
 - Una vez instalado OpenCode, ejecutamos 
 	- opencode   (para acceder a la tui -> interfaz de usuario en formato texto)
+	- ctrl + T ->esto abre una nueva terminal dentro de Warp
 - Con /exit nos salimos a la terminal Warp
 - Estadísticas
 	- opencode stats
