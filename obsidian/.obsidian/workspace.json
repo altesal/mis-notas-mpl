@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "4d0ae9c3264e4778",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5d1ceabe253fa840",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
-            }
-          }
-        ]
-=======
         "id": "35c9e3c040bdaf9d",
         "type": "tabs",
         "children": [
@@ -107,7 +91,6 @@
           }
         ],
         "currentTab": 5
->>>>>>> 8d98ee938320e56cd461479a600a94b8a2931f41
       }
     ],
     "direction": "vertical"
@@ -271,14 +254,14 @@
       "bases:Crear nueva base": false
     }
   },
-<<<<<<< HEAD
-  "active": "5d1ceabe253fa840",
+  "active": "7047ca942e304667",
   "lastOpenFiles": [
-    "Transformers.md",
-    "Sin título.base",
-=======
-  "active": "9c393971b64ab001",
-  "lastOpenFiles": [
+    "OpenCode/Sin título.base",
+    "OpenCode",
+    "Arquitectura/MCP.md",
+    "Arquitectura/Estructura proyecto front.md",
+    "ARQ Software/Entidad vs. Value Object.md",
+    "ARQ Software",
     "Arquitectura/Pasted image 20260707123225.png",
     "Arquitectura/Pre-Requisitos.md",
     "EntraID/Consultas Graph.md",
@@ -306,21 +289,12 @@
     "Notes sin organizar/Pasted image 20260621194629.png",
     "Notes sin organizar/OpenCode. Clase 2 IA.md",
     "Notes sin organizar/Conceptos.md",
-    "Notes sin organizar",
     "Transformers.md",
->>>>>>> 8d98ee938320e56cd461479a600a94b8a2931f41
     "Conceptos.md",
-    "Pasted image 20260621194629.png",
     "Proyecto con IA.md",
     "Pasted image 20260622082707.png",
     "OpenCode. Clase 2 IA.md",
     "Pasted image 20260621194629.png",
-    "notes",
-<<<<<<< HEAD
-    "Pasted image 20260621194427.png",
-    "Generative AI Campus"
-=======
     "Pasted image 20260621194427.png"
->>>>>>> 8d98ee938320e56cd461479a600a94b8a2931f41
   ]
 }
