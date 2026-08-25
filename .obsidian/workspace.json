@@ -1,127 +1,98 @@
 {
   "main": {
-    "id": "a55a88dd64fd0b4b",
+    "id": "e5096516fc63cf20",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "4d0ae9c3264e4778",
+        "id": "689386ab5275ea19",
         "type": "tabs",
         "children": [
           {
-            "id": "5d1ceabe253fa840",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
-            }
-          }
-        ]
-=======
-        "id": "35c9e3c040bdaf9d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "469098162f98982f",
+            "id": "1cb5a5758caa4976",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Desarrollos.md",
+                "file": "postman.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Desarrollos"
+              "title": "postman"
             }
           },
           {
-            "id": "4a4dc133fdd51252",
+            "id": "dbef6a0507de20b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APIs/Postman - EntraID.md",
+                "file": "obsidian/Arquitectura/Seguridad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Postman - EntraID"
+              "title": "Seguridad"
             }
           },
           {
-            "id": "c58a1d1422eb2d59",
+            "id": "c5ff5b0e16738ba2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NET/Secrets.md",
+                "file": "obsidian/ARQ Software/Entidad vs. Value Object.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Secrets"
+              "title": "Entidad vs. Value Object"
             }
           },
           {
-            "id": "025838b2ad280291",
+            "id": "95464b4fee1dc445",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APIs/Postman - EntraID.md",
+                "file": "obsidian/Arquitectura/MCP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Postman - EntraID"
+              "title": "MCP"
             }
           },
           {
-            "id": "f2c105cb1b15646b",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Arquitectura/Pasted image 20260707123225.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260707123225"
-            }
-          },
-          {
-            "id": "9c393971b64ab001",
+            "id": "b4811ea487b0d00e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura/Pre-Requisitos.md",
+                "file": "OpenCode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pre-Requisitos"
+              "title": "OpenCode"
             }
           }
         ],
-        "currentTab": 5
->>>>>>> 8d98ee938320e56cd461479a600a94b8a2931f41
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f3f554a13e7cf7ff",
+    "id": "36ae42b7944ab051",
     "type": "split",
     "children": [
       {
-        "id": "0bdc2f6f2f4377d8",
+        "id": "5096b99ba7883c30",
         "type": "tabs",
         "children": [
           {
-            "id": "7047ca942e304667",
+            "id": "69363cec98f27813",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -136,7 +107,7 @@
             }
           },
           {
-            "id": "8bf9045d7f5ee0ed",
+            "id": "5415e0f3a95f736d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -153,11 +124,14 @@
             }
           },
           {
-            "id": "92cd77815b400871",
+            "id": "a0f3d38dacb8b3ca",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
@@ -169,20 +143,20 @@
     "width": 300
   },
   "right": {
-    "id": "1e506ab598555e29",
+    "id": "5d189f15472d0e36",
     "type": "split",
     "children": [
       {
-        "id": "dea0fc4a5d3d14f0",
+        "id": "950b35aea1020317",
         "type": "tabs",
         "children": [
           {
-            "id": "2c6adde543676df3",
+            "id": "2b84c2ee13c17752",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conceptos.md",
+                "file": "OpenCode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,25 +166,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Conceptos"
+              "title": "Enlaces entrantes"
             }
           },
           {
-            "id": "1355a58767bf7c60",
+            "id": "06b341f3da21c31a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceptos.md",
+                "file": "OpenCode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Conceptos"
+              "title": "Enlaces salientes"
             }
           },
           {
-            "id": "a85391d582769232",
+            "id": "8bbf9cc2153cc3b2",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -225,7 +199,7 @@
             }
           },
           {
-            "id": "fae563e92d83d5c3",
+            "id": "6f80b9f0079c9675",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -239,18 +213,18 @@
             }
           },
           {
-            "id": "40334aeae2162fc6",
+            "id": "631f848f25951f58",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conceptos.md",
+                "file": "OpenCode.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Conceptos"
+              "title": "Esquema"
             }
           }
         ]
@@ -271,56 +245,49 @@
       "bases:Crear nueva base": false
     }
   },
-<<<<<<< HEAD
-  "active": "5d1ceabe253fa840",
+  "active": "b4811ea487b0d00e",
   "lastOpenFiles": [
-    "Transformers.md",
-    "Sin título.base",
-=======
-  "active": "9c393971b64ab001",
-  "lastOpenFiles": [
-    "Arquitectura/Pasted image 20260707123225.png",
-    "Arquitectura/Pre-Requisitos.md",
-    "EntraID/Consultas Graph.md",
-    "APIs/Postman - EntraID.md",
-    "EntraID",
-    "Desarrollos.md",
-    "Arquitectura/Seguridad.md",
-    "Arquitectura/red.drawio.png",
-    "Arquitectura/Exposición de una API alojada en Azure.md",
-    "Arquitectura/red.drawio 1.png",
-    "Arquitectura/Sin título.canvas",
-    "NET/Entity Framework.md",
-    "APIs",
-    "Nueva carpeta",
-    "NET/Secrets.md",
-    "NET",
-    "SPFX",
-    "Arquitectura/Pasted image 20260707123236.png",
-    "Arquitectura",
-    "Diagramas/Graficos.drawio",
-    "Diagramas",
-    "Notes sin organizar/Transformers.md",
-    "Notes sin organizar/Proyecto con IA.md",
-    "Notes sin organizar/Pasted image 20260622082707.png",
-    "Notes sin organizar/Pasted image 20260621194629.png",
-    "Notes sin organizar/OpenCode. Clase 2 IA.md",
-    "Notes sin organizar/Conceptos.md",
-    "Notes sin organizar",
-    "Transformers.md",
->>>>>>> 8d98ee938320e56cd461479a600a94b8a2931f41
-    "Conceptos.md",
-    "Pasted image 20260621194629.png",
-    "Proyecto con IA.md",
-    "Pasted image 20260622082707.png",
-    "OpenCode. Clase 2 IA.md",
-    "Pasted image 20260621194629.png",
-    "notes",
-<<<<<<< HEAD
-    "Pasted image 20260621194427.png",
-    "Generative AI Campus"
-=======
-    "Pasted image 20260621194427.png"
->>>>>>> 8d98ee938320e56cd461479a600a94b8a2931f41
+    "obsidian/Arquitectura/Estructura proyecto front.md",
+    "Pasted image 20260816200018.png",
+    "obsidian/Arquitectura/MCP.md",
+    "obsidian/ARQ Software/Entidad vs. Value Object.md",
+    "obsidian/Desarrollos.md",
+    "obsidian/Arquitectura/Seguridad.md",
+    "obsidian/ARQ Software",
+    "obsidian/Nueva carpeta",
+    "obsidian/Arquitectura/red.drawio.png",
+    "obsidian/Arquitectura/Pre-Requisitos.md",
+    "obsidian/Arquitectura/Pasted image 20260707123236.png",
+    "obsidian/Arquitectura/Pasted image 20260707123225.png",
+    "obsidian/Arquitectura/Exposición de una API alojada en Azure.md",
+    "OpenCode.md",
+    "postman.md",
+    "obsidian/OpenCode",
+    "obsidian/Notes sin organizar/Transformers.md",
+    "obsidian/Notes sin organizar/Proyecto con IA.md",
+    "obsidian/Notes sin organizar/Pasted image 20260622082707.png",
+    "obsidian/Notes sin organizar/Pasted image 20260621194629.png",
+    "obsidian/Notes sin organizar/OpenCode. Clase 2 IA.md",
+    "obsidian/Notes sin organizar/Conceptos.md",
+    "obsidian/Notes sin organizar",
+    "obsidian/NET/Secrets.md",
+    "obsidian/NET/Entity Framework.md",
+    "obsidian/NET",
+    "obsidian/EntraID/Consultas Graph.md",
+    "obsidian/EntraID",
+    "obsidian/Diagramas/Graficos.drawio",
+    "obsidian/Diagramas",
+    "obsidian/Arquitectura",
+    "obsidian/APIs/Postman - EntraID.md",
+    "obsidian/APIs",
+    "README.md",
+    "ts.md",
+    "urlsDoc.md",
+    "versiones.md",
+    "apis.md",
+    "obsidian/Transformers.md",
+    "obsidian/Proyecto con IA.md",
+    "obsidian/Pasted image 20260621194629.png",
+    "obsidian/Conceptos.md"
   ]
 }
