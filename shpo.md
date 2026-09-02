@@ -9,7 +9,8 @@
 | Contenido todo SharePoint (global) | e7ec8cee-ded8-43c9-beb5-436b54b31e84| /_api/search/query?querytext='*'&sourceid='e7ec8cee-ded8-43c9-beb5-436b54b31e84'|
 | Conversaciones / social | 5dc9f503-801e-4ced-8a2c-5d1237132419 |_api/search/query?querytext='discussion'&sourceid='5dc9f503-801e-4ced-8a2c-5d1237132419' |
 
-
+# Crear sites
+https://tenant.sharepoint.com/_layouts/15/sharepoint.aspx/build
 
 # Administración usuarios
 
