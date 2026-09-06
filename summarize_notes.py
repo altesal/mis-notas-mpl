@@ -49,7 +49,7 @@ def summarize(text):
         """
     )
 
-    return response
+    return response.output_text
 
 for filename in os.listdir(INPUT_DIR):
     if filename.endswith(".md"):

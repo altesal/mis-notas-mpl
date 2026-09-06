@@ -1,0 +1,13 @@
+Qué recomiendas para crear una aplicación que haga lo siguiente (enumera las tecnologías que sugieres, ha de ser  barato; si puede ser free mejor):
+- un listado de necesidades
+- tiene personas que necesitan atencion (pacientes). tendrán su info, nombre, dirección, necesidad
+- personas que atenderán a las necesidades de los pacientes (voluntarios)
+- administradores de la aplicación que podrán hacer cualquier acción (alta, bajas de ítems en tabla, etc.)
+- la aplicación mostrara una pagina con formato calendario:
+ -- en rojo una persona con necesidad a 15 días no cubierta
+ -- en verde una persona con necesidad cubierta a cualquier fecha
+ -- en amarillo una persona con necesidad pero que no está atendida y que aún faltan más de 15 días
+ -- en la pagina se podrá cambiar al mes y año que se desee
+- los datos se guardan den un mongodb
+- inicialmente no habrá una api backend (sí en una Fase2)
+- debe haber autenticación jwt con un mail por ejemplo Gmail, Hotmail, etc. ofreciendo un código valor para loguearse, recibiéndolo en ese mail. la sesión tiene una duración. si entra fuera de esa sesión, recibirá otro código.
