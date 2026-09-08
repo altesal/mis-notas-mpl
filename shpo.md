@@ -43,6 +43,7 @@ https://{tenant}.sharepoint.com/sites/{site}/_api/site?$select=Id  -> ID del ten
 # Consultas Graph
 
 https://developer.microsoft.com/en-us/GRAPH/GRAPH-EXPLORER
+
 https://graph.microsoft.com/v1.0/users/mxpxlx@xdcfvgbg.onmicrosoft.com?$select=id,displayName,employeeId,department,onPremisesExtensionAttributes
 
 # Webpart tipo Text
