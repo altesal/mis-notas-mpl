@@ -15,6 +15,8 @@ Next JS
 
 ## 24. Setup up Next JS project
 
+Ejemplo https://github.com/tomphill/linkshortenerproject 
+
 #### Crear el proyecto
 1. En una terminal de VS Code:    
 $ npx create-next-app@latest calendarproject
@@ -71,5 +73,49 @@ Configuramos las tools -> Edit, Read, Search y Fetch web
 
 
 #### Prompt file (custom)
-Creamos un prompt que llamamos create-instructions.prompt.md
-Lo invocamos en el chat con /create-instructions
+1. Creamos un prompt que llamamos create-instructions.prompt.md
+2. Lo invocamos en el chat con /create-instructions:
+
+/create-instructions everething to do with auth in this app is handled by clerk. NO OTHER AUTH METHODS SHOULD BE USED. The /dashboard page is a protected route and must require the user to be logged in to be able to access this page. If the user is logged in and trying to access the homepage, they should be redirected to the /dasboard page. Sign in and sign up via clerk should always launch as a modal.
+
+3. Generamos nuevo fichero bajo .github/prompts
+AGENTS.md -> este file en el contexto
+ /create-instructions ALL UI elements in this app use sshadcn ui.
+ DO NOT create any custom components,
+ ALWAYS use shadcn ui components.
+ Model:Instructions Generator Agent (custom) 
+
+4. selección Agent
+Create a /dashboard page. DO NOT add any content or data fetching just yet, just add a Dashboard h1 tag as aa placeholder
+
+5. contexto page.tsx (en el component Dashboard) 
+make sure this page adheres to the auth coding standards
+
+Vamos a la configuración del proyecto Calendar en Clerk, Configuration
+	EMAIL
+	Deshabilitamos Verify at sign-up
+	Deshabilitamos Email verification code
+	PASSWORD
+	 Client trust -> disabled
+La autenticación ahora funciona
+Ahora lanzamos este prompt:
+
+6. make sure this page adheres to the auth coding standards #file:authentication.md
+Agent
+
+`app/page.tsx` actualmente no aplica autenticación. Según `authentication.md`, la página principal debe redirigir a `/calendar` cuando el usuario ya está autenticado.
+
+Ahora --> La página seguirá siendo pública para usuarios no autenticados, mientras que los usuarios autenticados serán enviados al calendario.
+
+7. Nuevo prompt relacionado con estilos
+
+make sure the entire app displays as dark mode
+
+CTROL+SHIFT +P  -->  >simple Browser integrated
+8. Nuevo prompt 
+make sure this page adheres to the auth coding standards
+
+Además, en el navegador integrado en VS Code, seleccionamos un control, botón derrecho y seleccionar "Add element to chat"
+
+9. Nuevo prompt
+Update the agents.md file to make sure that it's incredibly important to ALWAYS read the relevant individual instructions files within the /docs directory BEFORE generating ANY code

@@ -8,6 +8,8 @@
 - Con /exit nos salimos a la terminal Warp
 - Estadísticas
 	- opencode stats
+- Abrir Opencode desde la terminal Warp
+	- opencode .
 - Modelos
 	Modo zen -> pago por uso
 	Go -> parte de la suscripción que tiene coste

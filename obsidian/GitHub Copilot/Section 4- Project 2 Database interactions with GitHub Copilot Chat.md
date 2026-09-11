@@ -20,6 +20,30 @@ how to push this schema to our postgres db hosted on neon?
 [terminal]:
 npx drizzle-kit push
 
+#### Instrucciones prompt ASK sobre cómo implementar esquema en postgress by neon
+Since schema changed since the earlier migration (moved `updatedAt`/`createdAt` order didn't matter, but the `id` type changed from `uuid` to `integer identity`, and field names changed), you'd need to regenerate the migration first, then apply it. Steps:
+
+1. **Ensure `.env` has `DATABASE_URL`** pointing to your Neon connection string (used by both `drizzle.config.ts` and `db/index.ts`). Neon's connection string typically needs `?sslmode=require`.
+    
+2. **Regenerate the migration** to capture the current `schema.ts` (integer identity `id`, renamed `userId`/`originalUrl` columns):
+    
+    npx drizzle-kit generate
+    
+    This diffs against the previous migration and creates a new one in `./drizzle`.
+    
+3. **Review the generated SQL** in the new `./drizzle/<timestamp>_*/migration.sql` file before applying — per AGENTS.md, "Review generated SQL before applying" and "Never edit schema files directly in production."
+    
+4. **Apply the migration to Neon**:
+    
+    npx drizzle-kit migrate
+    
+    This runs any pending migrations against `DATABASE_URL` and records them in the `drizzle` migrations table.
+    
+
+Alternative for quick prototyping (skips migration files, not recommended per `AGENTS.md` conventions): `npx drizzle-kit push` — diffs `schema.ts` directly against the live DB and applies changes without a migration history.
+
+I haven't run any of these since they'd modify your database — let me know if you'd like me to proceed with `generate` + `migrate`.
+
 ## 34. Generate seed data with GitHub Copilot Chat and insert into db with MCP
 
 [agent mode]:
@@ -44,9 +68,11 @@ when I sign in with clerk from the homepage it doesn't automatically redirect me
 
 ## 36. Build out dashboard page + official way to create GitHub Copilot instructions
 
-
-
+[agent mode]:
+Build out  the #file:page.tsx page, query for the currently logged in user's links and display them as a list
 ## 37. Convert old docs files to new GitHub Copilot instructions files
+
+
 
 ## 38 Implement create link functionality
 
