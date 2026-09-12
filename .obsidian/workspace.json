@@ -54,12 +54,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/GitHub Copilot/Section 4- Project 2 Database interactions with GitHub Copilot Chat.md",
+                "file": "obsidian/GitHub Copilot/24. Setup up Next JS project -- STACK.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Section 4- Project 2 Database interactions with GitHub Copilot Chat"
+              "title": "24. Setup up Next JS project -- STACK"
             }
           }
         ],
@@ -125,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 446.3000183105469
   },
   "right": {
     "id": "5d189f15472d0e36",
@@ -232,26 +232,26 @@
   },
   "active": "bd265acf571d9b9c",
   "lastOpenFiles": [
-    "obsidian/GitHub Copilot/MCP.md",
     "obsidian/GitHub Copilot/Section 4- Project 2 Database interactions with GitHub Copilot Chat.md",
-    "obsidian/OpenCode/Sin título.base",
-    "Sin título.md",
-    "obsidian/GitHub Copilot/Agentes.md",
-    "obsidian/GitHub Copilot/Prompts - Bucks2bar.md",
-    "obsidian/APP-ANA/Cloud Agents.md",
-    "obsidian/APP-ANA/Stack - Local Agents.md",
-    "obsidian/APP-ANA/Prompt.md",
-    "obsidian/GitHub Copilot/Instrucciones - copilot-instructions.md.md",
+    "obsidian/GitHub Copilot/24. Setup up Next JS project -- STACK.md",
     "obsidian/GitHub Copilot/Configuration.md",
-    "obsidian/GitHub Copilot/Security considerations.md",
-    "obsidian/EntraID/Consultas Graph.md",
-    "obsidian/ARQ Software/Entidad vs. Value Object.md",
+    "obsidian/GitHub Copilot/MCP.md",
+    "obsidian/GitHub Copilot/Prompts - Bucks2bar.md",
+    "obsidian/GitHub Copilot/Instrucciones - copilot-instructions.md.md",
+    "obsidian/GitHub Copilot/Agentes.md",
     "obsidian/GitHub Copilot/Tests.md",
     "obsidian/GitHub Copilot/Settings.md",
+    "obsidian/GitHub Copilot/Security considerations.md",
+    "obsidian/OpenCode/Sin título.base",
+    "Sin título.md",
+    "obsidian/GitHub Copilot/APP-ANA/Cloud Agents.md",
+    "obsidian/GitHub Copilot/APP-ANA/Prompt.md",
+    "obsidian/EntraID/Consultas Graph.md",
+    "obsidian/ARQ Software/Entidad vs. Value Object.md",
     "obsidian/GitHub Copilot",
     "obsidian/Comparativas.md",
-    "obsidian/APP-ANA/Diseño.md",
-    "obsidian/APP-ANA",
+    "obsidian/GitHub Copilot/APP-ANA/Diseño.md",
+    "obsidian/GitHub Copilot/APP-ANA",
     "Sin título.canvas",
     "2026-09-06.md",
     "postman.md",

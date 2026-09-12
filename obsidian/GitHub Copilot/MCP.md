@@ -1,3 +1,6 @@
+Cursor, GitHub Copilot, etc -> AI generation tools for code (herramientas de generación de IA para código)
+
+
 Model Context Protocol
 - Expone al chat de GitHub Copilot un conjunto de herramientas y un servicio de terceros
 - Por ejemplo, un tercero puede ser nuestra bbdd Neon

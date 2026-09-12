@@ -71,11 +71,33 @@ when I sign in with clerk from the homepage it doesn't automatically redirect me
 [agent mode]:
 Build out  the #file:page.tsx page, query for the currently logged in user's links and display them as a list
 ## 37. Convert old docs files to new GitHub Copilot instructions files
+[Instructions Generator mode]:
 
+[Instructions Generator mode]:
 
+/create-copilot-instructions  ALL data mutations in this app should be done via server actions. Server actions must be called from client components. Server action files MUST be named actions.ts and be colocated in the directory of the component that calls the server action. ALL data passed to server actions must have appropriate typescript types (DO NOT use the FormData typescript type). ALL data MUST be validated in server actions via zod. ALL server actions MUST first check for a logged in user before continuing with database operations. Database operations must be done via helper functions that wrap drizzle queries. These helper functions are located in the /data directory and server actions should NOT directly use drizzle queries within them.
+
+[agent mode]:
+
+update the #file:server-actions.instructions.md file to note that server actions shouldn't throw any errors, instead return an object with an error or success property.
 
 ## 38 Implement create link functionality
 
+[agent mode]:
+Implement the create link functionality. This should be launched via a model / dialog from the dashboard page.
+
+[agent mode]:
+fix this typpescript issue.
+
+[agent mode]:
+for the #file:page.tsx order the links from latest to oldest by updated at date.
+
 ## 39. Implement edit link and delete link functionality
 
+[agent mode]:
+implement the edit and delete link functionality for each link list item. the edit link should be done via a modal / dialog and the delete link should first launch a dialog to confirm to the user whether they want to delete this link or not #file:page.tsx
+
 ## 40. Implement redirect functionality
+
+[agent mode]:
+implement the redirect functionality for each link via an api route handler. whenever the route handler at /l/[shortcode] is accessed it should redirect the user to the full url.
