@@ -101,3 +101,46 @@ implement the edit and delete link functionality for each link list item. the ed
 
 [agent mode]:
 implement the redirect functionality for each link via an api route handler. whenever the route handler at /l/[shortcode] is accessed it should redirect the user to the full url.
+
+## 43. Detect insecure code with GitHub Copilot Chat
+
+Creamos nuevo prompt   security-audit.prompt.md
+
+Generará una tabla de issues y propondrá soluciones para corregirlas
+
+---
+ agent: ask
+---
+Perform a security audit of this codebase to detect any potential security vulnerabilities in this project.
+Output your findings as a markdown formatted table with the following columns (ID should start at 1 and auto increment, File Path should be an actual link to the file): "ID", "Severity", "Issue", "File Path", "Line Number(s)", and "Recommendation".
+
+Ver fichero Issues detected with prompt (está la tabla de issues)
+## 44. Sub agents with GitHub Copilot Chat
+
+Incluimos la orden 
+Next, ask the user which issues they want to fix by either replying "all", or a comma separated list of IDs. After their reply, run a  separate sub agent (#runSubagent) to fix each issue that the user has specified. Each sub agent should report back with a simple `subAgentSuccess: true | false`.
+
+en el fichero  security-audit.prompt.md para que pregunte qué issues de la tabla queremos que corrija
+
+
+## 45. Agent Skills in GitHub Copilot
+
+Skill Agents    -->https://www.skills.sh/ 
+
+OJO, usar skills seguros. 2 recomenadaciones:
+1. Vercel Labs
+2. Anthropics      skill-creator  (copiamos) --> npx skills add https://github.com/anthropics/skills --skill skill-creator 
+
+NO instalar find-skills
+
+[agent mode]:
+/skill-creator create a skill that queries the db with the database url in the .env file, for all links created within the past 12 months. use a python script to plot this data to a bar chart where the x axis displays each month for the past 12 months, and the y axis displays the total number of links created for that month. this should be exported as a png image
+
+[agent mode]:
+generate the mothly links chart image
+
+
+
+
+
+

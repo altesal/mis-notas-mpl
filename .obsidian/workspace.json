@@ -61,9 +61,65 @@
               "icon": "lucide-file",
               "title": "24. Setup up Next JS project -- STACK"
             }
+          },
+          {
+            "id": "2db8c732b43f2e8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/GitHub Copilot/Security considerations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Security considerations"
+            }
+          },
+          {
+            "id": "1aec73eb3d7e21c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/GitHub Copilot/Section 4- Project 2 Database interactions with GitHub Copilot Chat.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Section 4- Project 2 Database interactions with GitHub Copilot Chat"
+            }
+          },
+          {
+            "id": "10415326e1efc441",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/GitHub Copilot/Tests.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tests"
+            }
+          },
+          {
+            "id": "7350dc2ade38a4eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/GitHub Copilot/24. Setup up Next JS project -- STACK.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "24. Setup up Next JS project -- STACK"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -230,27 +286,31 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "bd265acf571d9b9c",
+  "active": "7350dc2ade38a4eb",
   "lastOpenFiles": [
-    "obsidian/GitHub Copilot/Section 4- Project 2 Database interactions with GitHub Copilot Chat.md",
-    "obsidian/GitHub Copilot/24. Setup up Next JS project -- STACK.md",
-    "obsidian/GitHub Copilot/Configuration.md",
+    "obsidian/GitHub Copilot/APP-ANA/Prompt.md",
+    "obsidian/GitHub Copilot/APP-ANA/Diseño.md",
+    "obsidian/GitHub Copilot/APP-ANA/Cloud Agents.md",
     "obsidian/GitHub Copilot/MCP.md",
     "obsidian/GitHub Copilot/Prompts - Bucks2bar.md",
-    "obsidian/GitHub Copilot/Instrucciones - copilot-instructions.md.md",
-    "obsidian/GitHub Copilot/Agentes.md",
-    "obsidian/GitHub Copilot/Tests.md",
-    "obsidian/GitHub Copilot/Settings.md",
+    "obsidian/GitHub Copilot/Section 4- Project 2 Database interactions with GitHub Copilot Chat.md",
     "obsidian/GitHub Copilot/Security considerations.md",
+    "obsidian/GitHub Copilot/Settings.md",
+    "obsidian/GitHub Copilot/Tests.md",
+    "obsidian/GitHub Copilot/24. Setup up Next JS project -- STACK.md",
+    "obsidian/GitHub Copilot/Instrucciones - copilot-instructions.md.md",
+    "obsidian/GitHub Copilot/Hooks.md",
+    "obsidian/GitHub Copilot/Cuándo usar cada cosa.md",
+    "obsidian/GitHub Copilot/Configuration.md",
+    "obsidian/GitHub Copilot/Agentes.md",
+    "Cuándo usar cada cosa.md",
+    "obsidian/GitHub Copilot/Issues detected with prompt.md",
     "obsidian/OpenCode/Sin título.base",
     "Sin título.md",
-    "obsidian/GitHub Copilot/APP-ANA/Cloud Agents.md",
-    "obsidian/GitHub Copilot/APP-ANA/Prompt.md",
     "obsidian/EntraID/Consultas Graph.md",
     "obsidian/ARQ Software/Entidad vs. Value Object.md",
     "obsidian/GitHub Copilot",
     "obsidian/Comparativas.md",
-    "obsidian/GitHub Copilot/APP-ANA/Diseño.md",
     "obsidian/GitHub Copilot/APP-ANA",
     "Sin título.canvas",
     "2026-09-06.md",
@@ -258,13 +318,10 @@
     "obsidian/Arquitectura/Seguridad.md",
     "obsidian/Arquitectura/MCP.md",
     "OpenCode.md",
-    "obsidian/Arquitectura/Estructura proyecto front.md",
     "Pasted image 20260816200018.png",
-    "obsidian/Desarrollos.md",
     "obsidian/ARQ Software",
     "obsidian/Nueva carpeta",
     "obsidian/Arquitectura/red.drawio.png",
-    "obsidian/Arquitectura/Pre-Requisitos.md",
     "obsidian/Arquitectura/Pasted image 20260707123236.png",
     "obsidian/Arquitectura/Pasted image 20260707123225.png",
     "obsidian/OpenCode",
