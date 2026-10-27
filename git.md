@@ -75,4 +75,7 @@ $ git push --set-upstream origin master
 
   ```
 
+### Info sobre el últiimo commit
 
+$ git log -1 --format="%h %an <%ae>"
+8924177 MPL <email-usuario@gmail.com>
